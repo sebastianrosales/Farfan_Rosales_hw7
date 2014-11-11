@@ -8,4 +8,5 @@ estado_0.010000.dat:sod_test.x
 
 estado_0.010000.pdf:graficador.py estado_0.010000.dat
 	python $^ 
-	
+clean: 
+	rm estado_0.010000.*
